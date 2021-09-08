@@ -1,10 +1,11 @@
 package og
 
 import (
-	"github.com/opsgenie/opsgenie-go-sdk-v2/alert"
-	"github.com/opsgenie/opsgenie-go-sdk-v2/client"
-	"github.com/pkg/errors"
 	"time"
+
+	"github.com/SafetyCulture/opsgenie-go-sdk-v2/alert"
+	"github.com/SafetyCulture/opsgenie-go-sdk-v2/client"
+	"github.com/pkg/errors"
 )
 
 type OwnerTeam struct {
@@ -81,7 +82,7 @@ func validateParticipants(rotation *Rotation) error {
 		}
 		if participant.Type == Escalation && participant.Name == "" && participant.Id == "" {
 			return errors.New("For participant type escalation either escalation name or id must be provided.")
-    }
+		}
 	}
 	return nil
 }

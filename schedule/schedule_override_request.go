@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/opsgenie/opsgenie-go-sdk-v2/client"
+	"github.com/SafetyCulture/opsgenie-go-sdk-v2/client"
 )
 
 type RotationIdentifier struct {

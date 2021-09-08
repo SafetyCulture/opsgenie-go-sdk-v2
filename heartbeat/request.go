@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/opsgenie/opsgenie-go-sdk-v2/client"
-	"github.com/opsgenie/opsgenie-go-sdk-v2/og"
+	"github.com/SafetyCulture/opsgenie-go-sdk-v2/client"
+	"github.com/SafetyCulture/opsgenie-go-sdk-v2/og"
 )
 
 type pingRequest struct {

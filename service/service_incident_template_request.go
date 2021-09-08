@@ -3,7 +3,7 @@ package service
 import (
 	"net/http"
 
-	"github.com/opsgenie/opsgenie-go-sdk-v2/client"
+	"github.com/SafetyCulture/opsgenie-go-sdk-v2/client"
 	"github.com/pkg/errors"
 )
 

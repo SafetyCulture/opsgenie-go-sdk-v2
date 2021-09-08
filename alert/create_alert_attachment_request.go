@@ -8,7 +8,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/opsgenie/opsgenie-go-sdk-v2/client"
+	"github.com/SafetyCulture/opsgenie-go-sdk-v2/client"
 )
 
 type CreateAlertAttachmentRequest struct {

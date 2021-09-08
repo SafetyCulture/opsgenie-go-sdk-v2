@@ -1,8 +1,8 @@
 package policy
 
 import (
-	"github.com/opsgenie/opsgenie-go-sdk-v2/alert"
-	"github.com/opsgenie/opsgenie-go-sdk-v2/client"
+	"github.com/SafetyCulture/opsgenie-go-sdk-v2/alert"
+	"github.com/SafetyCulture/opsgenie-go-sdk-v2/client"
 )
 
 type CreateResult struct {
@@ -36,11 +36,11 @@ type GetAlertPolicyResult struct {
 type GetNotificationPolicyResult struct {
 	client.ResultMetadata
 	MainFields
-	AutoRestartAction         *AutoRestartAction   `json:"autoRestartAction,omitempty"`
-	AutoCloseAction           *AutoCloseAction     `json:"autoCloseAction,omitempty"`
-	DeDuplicationAction 	  *DeDuplicationAction `json:"deduplicationAction,omitempty"`
-	DelayAction               *DelayAction         `json:"delayAction,omitempty"`
-	Suppress                  bool                 `json:"suppress,omitempty"`
+	AutoRestartAction   *AutoRestartAction   `json:"autoRestartAction,omitempty"`
+	AutoCloseAction     *AutoCloseAction     `json:"autoCloseAction,omitempty"`
+	DeDuplicationAction *DeDuplicationAction `json:"deduplicationAction,omitempty"`
+	DelayAction         *DelayAction         `json:"delayAction,omitempty"`
+	Suppress            bool                 `json:"suppress,omitempty"`
 }
 
 type PolicyResult struct {
